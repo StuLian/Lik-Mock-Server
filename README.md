@@ -1,6 +1,7 @@
 # Lik-Mock-Server
 
 ## 使用步骤
+### npm 安装 lik-mock-server 模块
 ### 在项目根目录下，建立 mock 文件夹；mock 文件夹下，建立 mock.js & options.js
 #### mock/mock.js
 ```js
