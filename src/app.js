@@ -16,7 +16,7 @@ class Server {
         app.use(router)
 
         app.listen(3000, function () {
-            console.log('mock-server-lik start')
+            console.log('lik-mock-server start')
         })
     }
 }
