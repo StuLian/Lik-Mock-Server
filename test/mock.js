@@ -6,4 +6,4 @@ const options = {
     routerPath: '/test/options.js'
 }
 
-const  mockServer = new Server(options)
+const mockServer = new Server(options)

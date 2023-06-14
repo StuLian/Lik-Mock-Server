@@ -1,6 +1,6 @@
 {
   "name": "lik-mock-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "mock服务，模拟接口请求，解决并行开发场景问题",
   "main": "index.js",
   "scripts": {
