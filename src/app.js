@@ -6,13 +6,11 @@ const getRouter = require('./router/index')
 
 class Server {
     constructor(options) {
-        const { routerPath } = options
-        this.startListen(routerPath)
+        const { dirname, routerPath } = options
+        this.startListen(dirname, routerPath)
     }
 
-    startListen(routerPath) {
-        
-        const dirname = path.dirname(__dirname)
+    startListen(dirname, routerPath) {
         const options = require(path.join(dirname, routerPath))
         const router = getRouter(options)
         app.use(router)
