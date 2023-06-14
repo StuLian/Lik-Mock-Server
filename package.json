@@ -1,0 +1,28 @@
+{
+  "name": "lik-mock-server",
+  "version": "1.0.0",
+  "description": "mock服务，模拟接口请求，解决并行开发场景问题",
+  "main": "index.js",
+  "scripts": {
+    "mock": "DEBUG=* nodemon test/mock.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StuLian/Lik-Mock-Server.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "Lik-",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StuLian/Lik-Mock-Server/issues"
+  },
+  "homepage": "https://github.com/StuLian/Lik-Mock-Server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7"
+  }
+}
