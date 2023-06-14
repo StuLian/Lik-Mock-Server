@@ -12,7 +12,7 @@ const options = {
     routerPath: '/mock/options.js' // 这里为绝对路径
 }
 
-const  mockServer = new Server(options)
+const mockServer = new Server(options)
 ```
 #### mock/options.js
 ```js
